@@ -30,12 +30,12 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="apollo" target="1.7" />
+      <module name="apollo" target="1.8" />
       <module name="athena" target="1.8" />
-      <module name="cupid" target="1.7" />
-      <module name="poseidon" target="1.7" />
-      <module name="venus" target="1.7" />
-      <module name="zeus" target="1.7" />
+      <module name="cupid" target="1.8" />
+      <module name="poseidon" target="1.8" />
+      <module name="venus" target="1.8" />
+      <module name="zeus" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
