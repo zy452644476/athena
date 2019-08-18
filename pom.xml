@@ -13,6 +13,8 @@
     <module>zeus</module>
     <module>apollo</module>
     <module>poseidon</module>
+    <module>dubbo-api</module>
+    <module>dubbo-provider</module>
   </modules>
   <packaging>pom</packaging>
 
@@ -27,6 +29,7 @@
 
     <lombok-version>1.18.0</lombok-version>
     <guava-version>28.0-jre</guava-version>
+    <rxjava-version>28.0-jre</rxjava-version>
   </properties>
 
   <dependencyManagement>
@@ -41,6 +44,11 @@
         <groupId>org.projectlombok</groupId>
         <artifactId>lombok</artifactId>
         <version>${lombok-version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.reactivex.rxjava2</groupId>
+        <artifactId>rxjava</artifactId>
+        <version>${rxjava-version}</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
