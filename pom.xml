@@ -28,7 +28,7 @@
     <maven.compiler.target>1.8</maven.compiler.target>
 
     <lombok-version>1.18.0</lombok-version>
-    <guava-version>28.0-jre</guava-version>
+    <guava-version>29.0-jre</guava-version>
     <rxjava-version>28.0-jre</rxjava-version>
   </properties>
 
